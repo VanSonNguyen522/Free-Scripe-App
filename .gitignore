@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Node modules directory
+node_modules/
+
+# Build directories
+dist/
+build/
+public/
+
+# Tailwind generated files
+*.css
+*.css.map
+
+# Optional: if using any specific tools, you may add their specific directories or files
+.vscode/
+.env
