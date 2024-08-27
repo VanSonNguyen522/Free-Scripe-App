@@ -4,7 +4,7 @@ const FileDisplay = (props) => {
     const {handleAudioReset, file, audiStream} = props
    
   return (
-    <main className='flex-1 p-4 flex flex-col gap-3 text-center sm:gap-4 md:gap-5 justify-center pb-20 w-72 max-w-full mx-auto'>
+    <main className='flex-1 p-4 flex flex-col gap-3 text-center sm:gap-4 md:gap-5 justify-center pb-20 w-72 sm:w-92 max-w-full mx-auto'>
       <h1 className='font-semibold text-5xl sm:text-6xl md:text-7xl'>Your<span className='text-blue-400 bold'>File
       </span></h1>  
       <div className='flex flex-col text-left my-4'>
