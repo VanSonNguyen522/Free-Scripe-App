@@ -8,7 +8,7 @@ function App() {
   const [file, setFile] = useState(0)
   const [audioStream, setAudioStream] = useState(0)
   const isAudioAvaiable = file || audioStream
-  const [output, setOutput] = useState(null)
+  const [output, setOutput] = useState(true)
   const [loading, setLoading] = useState(true)
   function handleAudioReset () {
     setFile(null)
