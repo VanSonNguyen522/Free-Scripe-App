@@ -69,7 +69,7 @@ function App() {
     if (!file && !audioStream) { return }
 
     let audio = await readAudioFrom(file ? file : audioStream)
-    const model_name = `openai/whisper-tiny.en`
+    const model_name = `gpt-2`
 
     worker.current.postMessage({
       type: MessageTypes.INFERENCE_REQUEST,
