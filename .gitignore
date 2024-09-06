@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# API key và thông tin nhạy cảm
+.env
+config.json
+api-keys.txt
+
+# Thư mục tạm thời
+temp/
+logs/
+
+# Các tệp log
+*.log
+
+# Các tệp cấu hình cá nhân
+personal-config.json
+user-settings.yaml
